@@ -4,7 +4,11 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'Mongo',
   connector: 'mongodb',
+<<<<<<< HEAD
   url: 'urldeconexion',
+=======
+  url: 'conexionprueba',
+>>>>>>> 485890c2893c36a7f5c63da7d13b5a19c108ec57
   host: '',
   port: 0,
   user: '',
