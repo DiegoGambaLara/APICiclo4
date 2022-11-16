@@ -22,7 +22,7 @@ export class Servicio extends Entity {
   destino: string;
 
   @property({
-    type: 'date',
+    type: 'string',
     required: true,
   })
   fecha: string;
@@ -40,7 +40,7 @@ export class Servicio extends Entity {
   encomienda: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
   valor: number;
